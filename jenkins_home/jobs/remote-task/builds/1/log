@@ -1,0 +1,15 @@
+Started by user [8mha:////4A6VlgEAGrCr8uof8JdAj2RAnvNhQR9zL+F1ahRIGVCfAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYB/dLi1CL9/KTM/KLEzNzEDADXzuIMxQAAAA==[0mObiora Imah
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/remote-task
+[SSH] script:
+
+NAME=obiora
+echo "Hello $NAME"
+
+[SSH] executing...
+Hello obiora
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS

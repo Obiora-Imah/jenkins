@@ -1,0 +1,10 @@
+Started by user [8mha:////4A6VlgEAGrCr8uof8JdAj2RAnvNhQR9zL+F1ahRIGVCfAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYB/dLi1CL9/KTM/KLEzNzEDADXzuIMxQAAAA==[0mObiora Imah
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/my-first-job
+[my-first-job] $ /bin/sh -xe /tmp/jenkins9015281566309424231.sh
++ date
++ echo current date is: Mon Dec 28 19:35:48 UTC 2020
+current date is: Mon Dec 28 19:35:48 UTC 2020
++ echo Hello Kaima Pearl how are you doing
+Hello Kaima Pearl how are you doing
+Finished: SUCCESS

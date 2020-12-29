@@ -1,0 +1,21 @@
+Started by user [8mha:////4A6VlgEAGrCr8uof8JdAj2RAnvNhQR9zL+F1ahRIGVCfAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYB/dLi1CL9/KTM/KLEzNzEDADXzuIMxQAAAA==[0mObiora Imah
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/backup-to-aws-s3
+[SSH] script:
+AWS_SECRET_ACCESS_KEY=**********
+DB_NAME="test_db"
+MYSQL_HOST="db_host"
+MYSQL_PASSWORD=**********
+
+chmod +x /tmp/script.sh
+/tmp/script.sh $MYSQL_HOST $MYSQL_PASSWORD $DB_NAME $AWS_SECRET_ACCESS_KEY
+
+[SSH] executing...
+mysqldump: [Warning] Using a password on the command line interface can be insecure.
+parameters: host, passsword, dbname, aws_access_secret
+Completed 1.8 KiB/1.8 KiB (2.9 KiB/s) with 1 file(s) remainingupload: ../../tmp/db-2020-12-29-23-20.sql to s3://obiora-jenkins-mysql-backup/db-2020-12-29-23-20.sql
+
+[SSH] completed
+[SSH] exit-status: 0
+
+Finished: SUCCESS
