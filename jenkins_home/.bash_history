@@ -66,3 +66,69 @@ ls
 cd ..
 ssh remote_user@remote_host
 exit
+whoami
+exit
+os 
+yum -h install ansible
+apt install ansible
+sudo apt-add-repository ppa:ansible/ansible
+apt-add-repository ppa:ansible/ansible
+sudo apt -y install ansible
+sudo apt update -y
+ apt update -y
+exit
+cat /etc/*-release
+exit
+apt-get install build-essential zlib1g-dev libncurses5-dev libgdbm-dev libnss3-dev libssl-dev libreadline-dev libffi-dev wget
+exit
+ansible
+exit
+pwd
+ll
+ls
+cd $HOME
+ls
+pwd
+exit
+cd $HOME
+ls
+exit
+cd $HOME
+ll
+ls
+cd ansible/
+ls
+cat hosts 
+ping remote_host
+ansible -i hosts -m ping test1
+exit
+cd ansible
+ansible-playbook -i hosts play.yml
+ansible-playbook -i hosts ansible/play.yml
+cd $HOME
+ansible-playbook -i hosts ansible/play.yml
+cat ansible/play.yml 
+cat /tmp/ansible-file
+cd ~
+cat /tmp/ansible-file
+exit
+cat /tmp/ansible-file
+ls
+cd tmp
+ls
+cd ..
+cd $HOME
+cd ansible/
+ansible-playbook -i hosts play.yml
+cat /tmp/ansible-file
+exit
+cd $HOME
+ansible-playbook -i hosts play.yml
+ansible-playbook -i hosts ./ansible/play.yml
+cd ansible/
+ansible-playbook -i hosts play.yml
+exit
+cd $HOME
+cd ansible/
+ansible-playbook -i hosts play.yml
+exit

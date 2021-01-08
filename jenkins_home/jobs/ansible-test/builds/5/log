@@ -1,0 +1,24 @@
+Started by user [8mha:////4A6VlgEAGrCr8uof8JdAj2RAnvNhQR9zL+F1ahRIGVCfAAAAnB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgYB/dLi1CL9/KTM/KLEzNzEDADXzuIMxQAAAA==[0mObiora Imah
+Running as SYSTEM
+Building in workspace /var/jenkins_home/workspace/ansible-test
+[ansible-test] $ ansible-playbook /var/jenkins_home/ansible/play.yml -i /var/jenkins_home/ansible/hosts -f 5 -e "MSG='Hello From Obiora'"
+/usr/local/lib/python3.5/dist-packages/ansible/parsing/vault/__init__.py:44: CryptographyDeprecationWarning: Python 3.5 support will be dropped in the next release of cryptography. Please upgrade your Python.
+  from cryptography.exceptions import InvalidSignature
+
+PLAY [test1] *******************************************************************
+
+TASK [Gathering Facts] *********************************************************
+[0;32mok: [test1][0m
+
+TASK [shell] *******************************************************************
+[0;33mchanged: [test1][0m
+
+TASK [debug] *******************************************************************
+[0;32mok: [test1] => {[0m
+[0;32m    "msg": "Hello From Obiora"[0m
+[0;32m}[0m
+
+PLAY RECAP *********************************************************************
+[0;33mtest1[0m                      : [0;32mok=3   [0m [0;33mchanged=1   [0m unreachable=0    failed=0    skipped=0    rescued=0    ignored=0   
+
+Finished: SUCCESS

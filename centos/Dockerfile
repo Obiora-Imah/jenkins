@@ -17,7 +17,6 @@ EXPOSE 22
 RUN rm -rf /run/nologin
 
 RUN yum -y install python36
-#RUN yum -y install python36-pip
 RUN yum -y install mysql
 RUN curl -O https://bootstrap.pypa.io/get-pip.py && \
   python3 get-pip.py && \

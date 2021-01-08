@@ -1,36 +1,20 @@
-Started at Tue Dec 29 18:08:56 UTC 2020
-Processing my-first-job
-Offering my-first-job to Project Build Discarder
-Finished at Tue Dec 29 18:08:57 UTC 2020. 246ms
-Started at Tue Dec 29 19:08:52 UTC 2020
-Processing my-first-job
-Offering my-first-job to Project Build Discarder
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Finished at Tue Dec 29 19:08:52 UTC 2020. 159ms
-Started at Tue Dec 29 20:08:48 UTC 2020
-Processing my-first-job
-Offering my-first-job to Project Build Discarder
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Finished at Tue Dec 29 20:08:48 UTC 2020. 99ms
-Started at Tue Dec 29 21:08:44 UTC 2020
-Processing my-first-job
-Offering my-first-job to Project Build Discarder
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Finished at Tue Dec 29 21:08:44 UTC 2020. 146ms
-Started at Tue Dec 29 22:08:40 UTC 2020
-Processing my-first-job
-Offering my-first-job to Project Build Discarder
-Processing remote-task
-Offering remote-task to Project Build Discarder
-Finished at Tue Dec 29 22:08:40 UTC 2020. 174ms
-Started at Tue Dec 29 23:08:35 UTC 2020
+Started at Fri Jan 08 13:39:08 UTC 2021
+Processing ansible-test
+Offering ansible-test to Project Build Discarder
 Processing backup-to-aws-s3
 Offering backup-to-aws-s3 to Project Build Discarder
 Processing my-first-job
 Offering my-first-job to Project Build Discarder
 Processing remote-task
 Offering remote-task to Project Build Discarder
-Finished at Tue Dec 29 23:08:36 UTC 2020. 43ms
+Finished at Fri Jan 08 13:39:08 UTC 2021. 444ms
+Started at Fri Jan 08 14:39:04 UTC 2021
+Processing ansible-test
+Offering ansible-test to Project Build Discarder
+Processing backup-to-aws-s3
+Offering backup-to-aws-s3 to Project Build Discarder
+Processing my-first-job
+Offering my-first-job to Project Build Discarder
+Processing remote-task
+Offering remote-task to Project Build Discarder
+Finished at Fri Jan 08 14:39:04 UTC 2021. 466ms
